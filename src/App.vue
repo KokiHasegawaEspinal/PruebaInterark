@@ -3,19 +3,23 @@
   <HelloWorld msg="ようこそ"/>
   <div><TodayExample/></div>
   <div><ToglleButton/></div>
+  <div><GraphsAmcharts/></div>
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 import TodayExample from './components/TodayExample.vue';
 import ToglleButton from './components/ToglleButton.vue';
+import GraphsAmcharts from './components/GraphsAmcharts.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     TodayExample,
-    ToglleButton
+    ToglleButton,
+    GraphsAmcharts
     
   }
 }
